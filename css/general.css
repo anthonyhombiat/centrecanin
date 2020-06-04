@@ -1,0 +1,376 @@
+body{
+	margin:3% 0 20px 0;
+	padding:0;	
+	font-family: "Arial";
+	background-color: #eee;
+}
+
+textarea{
+	resize:none;
+	width:98%;
+}
+
+a img{
+	border:none;
+}
+
+.image_with_frame,#map, video, object{
+	border:solid 10px #fff;
+	box-shadow:0px 0px 8px #aaa;
+}
+
+video{
+	margin:auto;
+}
+
+input[type='button']{
+	padding:5px 20px;
+}
+
+input[type='text'],textarea{
+	width:300px;
+}
+
+.float_right{
+	float:right;
+	margin: 0 20px 0 40px;
+}
+
+.float_left{
+	float:left;
+	margin: 0 40px 0 20px;
+}
+
+.portrait_format{
+	width:240px;
+	height:300px;
+}
+
+.paysage_format{
+	width:350px;
+	height:220px;
+	margin-bottom:40px;
+}
+
+a.tel_link {
+	color: inherit !important;
+	text-decoration: inherit !important;
+}
+
+/***********/
+/** HEADER */
+/***********/
+
+#wrapper{
+	margin: auto;
+	border:solid 10px #fff;
+	width: 1000px;
+	box-shadow:0px 0px 8px #aaa;
+	background-color: #fff;
+	border-radius:5px;
+}
+
+h1{
+	font-size:1.8em;
+	margin: 6px auto 0px auto;
+	border-left: solid 157px #a55;
+	color:#397;
+	padding-left: 10px;
+}
+
+h2{
+	color:#a55;
+	margin:0;
+}
+
+#section_videos h2, #section_boutique h2, #section_contact h2{
+	color:#a55;
+	margin:0 0 20px 0;
+}
+
+#section_contact h2{
+	text-align: center;
+}
+
+h3{
+	color:#397;
+	margin-top:0;
+}
+
+#wrapper > header > h2{
+	margin: 0;
+	font-size: 1.2em;
+	border-left: solid 157px #a55;
+	padding-left: 10px;
+}
+
+#iconyt{
+	float:right;
+	margin-right: -05px;
+	margin-top: 05px;
+}
+
+#iconfb{
+	float:right;
+	margin-right: 10px;
+	margin-top: 05px;
+}
+
+/*********/
+/** MENU */
+/*********/
+
+/*
+#accueil{
+	padding-left:28px;
+	background: url("../images/home-24x24.png") no-repeat left;
+}
+
+#education{
+	padding-left:28px;
+	background: url("../images/dog-24x24.png") no-repeat left;
+}
+
+#ecole_du_chiot{
+	padding-left:28px;
+	background: url("../images/ecole_du_chiot.png") no-repeat left;
+}
+
+#agility{
+	padding-left:28px;
+	background: url("../images/agility.png") no-repeat left;
+}
+
+#flyball{
+	padding-left:28px;
+	background: url("../images/ball-24x24.png") no-repeat left;
+}
+
+#amateur_de_truffe{
+	padding-left:28px;
+	background: url("../images/amateur_de_truffe.png") no-repeat left;
+}
+
+#contact{
+	padding-left:28px;
+	background: url("../images/mail-24x24.png") no-repeat left;
+}
+
+#acces{
+	padding-left:28px;
+	background: url("../images/map-24x24.png") no-repeat left;
+}
+
+#boutique{
+	padding-left:28px;
+	background: url("../images/basket-24x24.png") no-repeat left;
+}
+*/
+
+nav{
+	border-bottom-right-radius:35px;
+	background-color: #eee;
+	height:40px;
+}
+
+nav ul{
+	margin: 10px 30px 10px 0;
+	padding: 0;
+	list-style-type: none;	
+	padding-left:60px;
+	height:40px;
+}
+
+nav ul li{
+	line-height:40px;
+	display:inline;	
+	font-size: 0.8em;
+	border:solid 1px #ddd;
+	padding:6px 10px;
+	margin-left:3px;
+	background-color: #fff !important;
+/* 	text-shadow:#FFFFFF 0 1px 0; */
+}
+
+nav ul .on{
+	background-color: #397 !important;
+	
+}
+
+nav ul .on:hover{
+	cursor: default;
+	background-color: #397 !important;
+}
+
+nav ul li:hover{
+	cursor:pointer;
+	background-color: #ffd !important;
+}
+
+nav ul li a:link,nav ul li a:visited{
+	text-decoration: none;
+	color:#397;
+	font-weight: bold;
+}
+
+nav ul li a:hover{
+	text-decoration: none;
+}
+
+nav ul .on a:link, nav ul .on a:visited{
+	color:#fff;
+}
+
+/************/
+/** CONTENT */
+/************/
+
+aside{
+	float:left;
+	width:137px;
+	background-color: #eee;
+	padding:10px;
+	margin: 0;
+	border-bottom-right-radius:150px;
+	height:400px;
+	font-size:0.8em;
+	color:#555;
+	text-shadow: 0px 1px 0px #fafafa;
+}
+
+article{
+	margin:10px 20px 30px 170px;
+	width: 820px;
+	color:#054;
+	min-height:400px;
+	font-size:11pt;
+}
+
+/** Contact */
+
+#form_table{
+	background-color: #eee;
+	padding:20px 30px;
+	border:solid 10px #fff;
+	margin: auto;
+	box-shadow:0px 0px 8px #aaa;
+	text-shadow: 0px 1px 0px #fff;
+}
+
+#form_table label{
+	margin-right:14px;
+}
+
+#form_table tr:first-child td{
+	font-weight: bold;
+	padding:10px 0 20px 0;
+}
+
+#form_table td:first-child{
+	vertical-align: top;
+	text-align: right;
+}
+
+#form_table td[colspan='2']{
+	text-align: center;
+}
+
+p{
+	padding:0;
+}
+
+.item{
+	width:162px;
+	float:left;
+	border:solid 1px #eee;
+	text-align:center;
+	margin: 0 20px 20px 0;
+	padding:10px 10px 20px 10px;
+	font-size:10pt;
+	height:250px;
+}
+
+#map{
+	float: right;
+	margin-left:20px;
+}
+
+#section_videos article{
+	text-align:center;
+	margin-bottom:40px;
+}
+
+#videos{
+	border:none;
+	padding:0;
+	background:transparent !important;
+}
+
+#videos img{
+	margin: 0 0 -6px 4px;
+}
+
+.videos_button a:link,.videos_button a:visited,.videos_button a:hover{
+	padding: 6px 26px 6px 6px;
+	background: #eee url('../images/play-16x16-off.png') no-repeat 97% 55%;
+	border: 1px solid #ddd;
+	color:#888;
+	font-weight:bold;
+	text-shadow: 0px 1px 0px #fafafa;
+	text-decoration:none;
+	font-size:0.8em;
+}
+
+.videos_button a:hover{
+	color:#666;
+	background: #eaeaea url('../images/play-16x16-on.png') no-repeat 97% 55%;
+	border: 1px solid #ccc;
+}
+
+/***********/
+/** FOOTER */
+/***********/
+
+footer {
+  background-color:#497;
+  color:#fff;
+  font-size:0.9em;
+  padding:10px;
+  text-align:center;
+  text-shadow:#375 0 -1px 0;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius:6px;
+  height:50px;
+  clear:both;
+}
+
+footer > *{
+	width: 1000px;
+	margin:auto;
+}
+
+footer #tel{
+	background: ;
+}
+
+footer #mail{
+	background: ;
+}
+
+footer #mail a:link,footer #mail a:visited,footer #mail a:hover{
+	color: #bfc;
+	text-decoration: none;
+}
+
+footer #mail a:hover{
+	text-decoration: underline;
+}
+
+#copyright{
+	text-align:center;
+	font-size:0.7em;
+	color:#888;
+	text-shadow:#fff 0 1px 0;
+	margin-top: 20px;
+}
