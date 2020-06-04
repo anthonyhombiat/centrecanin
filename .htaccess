@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule mail_success.html$ index.php?page=accueil&mail [L]
+RewriteRule ([a-z0-9_-]+)\.html$ index.php?page=$1 [L]
