@@ -10,8 +10,8 @@
 		"amateur_de_truffe" => "Amateur de truffe",
 		"acces" => "Acc&egrave;s",
 		"contact" => "Contact",
-		"boutique" => "Boutique",
-		"livre_d_or" => "Livre d&rsquo;or",
+		// "boutique" => "Boutique",
+		// "livre_d_or" => "Livre d&rsquo;or",
 		"videos" => "Vid&eacute;os"
 	);
 

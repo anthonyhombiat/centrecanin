@@ -148,7 +148,7 @@ nav ul {
 	margin: 10px 30px 10px 0;
 	padding: 0;
 	list-style-type: none;
-	padding-left: 60px;
+	padding-left: 157px;
 	height: 40px;
 }
 
@@ -283,7 +283,7 @@ p {
 
 .videos_button a:link,.videos_button a:visited,.videos_button a:hover {
 	padding: 6px 26px 6px 6px;
-	background: #eee url('../static/img/play-16x16-off.png') no-repeat 97% 55%;
+	background: #eee url('../img/play-16x16-off.png') no-repeat 97% 55%;
 	border: 1px solid #ddd;
 	color: #888;
 	font-weight: bold;
@@ -294,7 +294,7 @@ p {
 
 .videos_button a:hover {
 	color: #666;
-	background: #eaeaea url('../static/img/play-16x16-on.png') no-repeat 97% 55%;
+	background: #eaeaea url('../img/play-16x16-on.png') no-repeat 97% 55%;
 	border: 1px solid #ccc;
 }
 
