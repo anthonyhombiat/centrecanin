@@ -139,26 +139,26 @@ h3 {
 */
 
 nav {
-	border-bottom-right-radius:35px;
+	border-bottom-right-radius: 35px;
 	background-color: #eee;
-	height:40px;
+	height: 40px;
 }
 
 nav ul {
 	margin: 10px 30px 10px 0;
 	padding: 0;
 	list-style-type: none;
-	padding-left:60px;
-	height:40px;
+	padding-left: 60px;
+	height: 40px;
 }
 
 nav ul li {
-	line-height:40px;
+	line-height: 40px;
 	display:inline;
 	font-size: 0.8em;
 	border:solid 1px #ddd;
-	padding:6px 10px;
-	margin-left:3px;
+	padding: 6px 10px;
+	margin-left: 3px;
 	background-color: #fff !important;
 /* 	text-shadow:#FFFFFF 0 1px 0; */
 }
@@ -174,13 +174,13 @@ nav ul .on:hover {
 }
 
 nav ul li:hover {
-	cursor:pointer;
+	cursor: pointer;
 	background-color: #ffd !important;
 }
 
 nav ul li a:link,nav ul li a:visited {
 	text-decoration: none;
-	color:#397;
+	color: #397;
 	font-weight: bold;
 }
 
@@ -189,7 +189,7 @@ nav ul li a:hover {
 }
 
 nav ul .on a:link, nav ul .on a:visited{
-	color:#fff;
+	color: #fff;
 }
 
 /*************/
@@ -198,43 +198,43 @@ nav ul .on a:link, nav ul .on a:visited{
 
 aside {
 	float:left;
-	width:137px;
+	width: 137px;
 	background-color: #eee;
-	padding:10px;
+	padding: 10px;
 	margin: 0;
-	border-bottom-right-radius:150px;
-	height:400px;
-	font-size:0.8em;
-	color:#555;
+	border-bottom-right-radius: 150px;
+	height: 400px;
+	font-size: 0.8em;
+	color: #555;
 	text-shadow: 0px 1px 0px #fafafa;
 }
 
 article {
-	margin:10px 20px 30px 170px;
+	margin: 10px 20px 30px 170px;
 	width: 820px;
-	color:#054;
-	min-height:400px;
-	font-size:11pt;
+	color: #054;
+	min-height: 400px;
+	font-size: 11pt;
 }
 
 /** Contact */
 
 #form_table {
 	background-color: #eee;
-	padding:20px 30px;
-	border:solid 10px #fff;
+	padding: 20px 30px;
+	border: solid 10px #fff;
 	margin: auto;
-	box-shadow:0px 0px 8px #aaa;
+	box-shadow: 0px 0px 8px #aaa;
 	text-shadow: 0px 1px 0px #fff;
 }
 
 #form_table label {
-	margin-right:14px;
+	margin-right: 14px;
 }
 
 #form_table tr:first-child td {
 	font-weight: bold;
-	padding:10px 0 20px 0;
+	padding: 10px 0 20px 0;
 }
 
 #form_table td:first-child {
@@ -247,34 +247,34 @@ article {
 }
 
 p {
-	padding:0;
+	padding: 0;
 }
 
 .item {
-	width:162px;
-	float:left;
-	border:solid 1px #eee;
+	width: 162px;
+	float: left;
+	border: solid 1px #eee;
 	text-align:center;
 	margin: 0 20px 20px 0;
-	padding:10px 10px 20px 10px;
-	font-size:10pt;
-	height:250px;
+	padding: 10px 10px 20px 10px;
+	font-size: 10pt;
+	height: 250px;
 }
 
 #map {
 	float: right;
-	margin-left:20px;
+	margin-left: 20px;
 }
 
 #section_videos article {
-	text-align:center;
-	margin-bottom:40px;
+	text-align: center;
+	margin-bottom: 40px;
 }
 
 #videos {
-	border:none;
-	padding:0;
-	background:transparent !important;
+	border: none;
+	padding: 0;
+	background: transparent !important;
 }
 
 #videos img {
@@ -285,15 +285,15 @@ p {
 	padding: 6px 26px 6px 6px;
 	background: #eee url('../static/img/play-16x16-off.png') no-repeat 97% 55%;
 	border: 1px solid #ddd;
-	color:#888;
-	font-weight:bold;
+	color: #888;
+	font-weight: bold;
 	text-shadow: 0px 1px 0px #fafafa;
-	text-decoration:none;
-	font-size:0.8em;
+	text-decoration: none;
+	font-size: 0.8em;
 }
 
 .videos_button a:hover {
-	color:#666;
+	color: #666;
 	background: #eaeaea url('../static/img/play-16x16-on.png') no-repeat 97% 55%;
 	border: 1px solid #ccc;
 }
@@ -303,22 +303,22 @@ p {
 /***********/
 
 footer {
-  background-color:#497;
-  color:#fff;
-  font-size:0.9em;
-  padding:10px;
-  text-align:center;
-  text-shadow:#375 0 -1px 0;
+  background-color: #497;
+  color: #fff;
+  font-size: 0.9em;
+  padding: 10px;
+  text-align: center;
+  text-shadow: #375 0 -1px 0;
   font-weight: bold;
   margin-top: 10px;
-  border-radius:6px;
-  height:50px;
-  clear:both;
+  border-radius: 6px;
+  height: 50px;
+  clear: both;
 }
 
 footer > * {
 	width: 1000px;
-	margin:auto;
+	margin: auto;
 }
 
 footer #mail a:link,footer #mail a:visited,footer #mail a:hover {
@@ -331,9 +331,9 @@ footer #mail a:hover {
 }
 
 #copyright {
-	text-align:center;
-	font-size:0.7em;
-	color:#888;
-	text-shadow:#fff 0 1px 0;
+	text-align: center;
+	font-size: 0.7em;
+	color: #888;
+	text-shadow: #fff 0 1px 0;
 	margin-top: 20px;
 }
