@@ -32,28 +32,16 @@ function isMailValid(mail){
 	}
 }
 
+function showMailSuccessMessage(){
+	alert('Votre message a bien \351t\351 envoy\351.');
+}
+
 function resizeAside(){
 	var height = 0;
 	$("article").each(function(index){
 		height += $(this).height();
 	});
 	$("aside").height(height);
-}
-
-function initVideoButton(){
-	if($("#videos").attr("class") != "on"){
-		$("#videos a").html("<img src='static/img/videos-24x24-off.png' alt='videos' title='Le centre en images !' />");
-		$("#videos a img").hover(
-			function(){
-				$(this).attr("src","static/img/videos-24x24-on.png");
-			},
-			function(){
-				$(this).attr("src","static/img/videos-24x24-off.png");
-			}
-		);
-	}else{
-		$("#videos a").html("<img src='static/img/videos-24x24-on.png' alt='videos' title='Le centre en images !' />");
-	}
 }
 
 function initOSMMap(){
@@ -67,15 +55,11 @@ function initOSMMap(){
 	    .openPopup();
 }
 
-function showMailSuccessMessage(){
-	alert('Votre message a bien \351t\351 envoy\351.');
-}
-
 $(document).ready(function() {
 
 	$("nav ul li").click(function(){
 		$("nav ul li").removeAttr("class");
-		$(this).attr("class","on");
+		$(this).attr("class", "on");
 		window.location.href = $(this).children().first().attr("href");
 	});
 
@@ -84,6 +68,7 @@ $(document).ready(function() {
 	});
 
 	resizeAside();
-	initVideoButton();
+
+	$("#videos a").html("<img src='static/img/videos-24x24.png' alt='videos' title='Le centre en images !' />");
 
 });

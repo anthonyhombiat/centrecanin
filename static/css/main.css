@@ -275,6 +275,11 @@ p {
 	border: none;
 	padding: 0;
 	background: transparent !important;
+	opacity: 0.8;
+}
+
+#videos.on, #videos:hover {
+	opacity: 1;
 }
 
 #videos img {
